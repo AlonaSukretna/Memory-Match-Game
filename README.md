@@ -2,11 +2,11 @@
 
 ## Table of Contents
 
-* [How The Game Works](#howTheGameWorks)
+* [How The Game Works](#How The Game Works)
 * [Description](#description)
 * [Contributing](#contributing)
 
-##How The Game Works
+## How The Game Works
 
 The game board consists of sixteen "cards" arranged in a grid.
 The deck is made up of eight different pairs of cards, each with different
@@ -46,9 +46,8 @@ Once the player wins the game, the timer stops.
 
 Game displays the current number of moves a user has made.
 
-The starter project [Memory Game project repository on GitHub]
-(https://github.com/udacity/fend-project-memory-game) has some HTML and CSS
-styling to display a static version of the Memory Game project.
+The starter project https://github.com/udacity/fend-project-memory-game
+has some HTML and CSS styling to display a static version of the Memory Game project.
 
 For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
