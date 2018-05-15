@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-* [How The Game Works](#How The Game Works)
+* [How The Game Works](#HowTheGameWorks)
 * [Description](#description)
 * [Contributing](#contributing)
 
