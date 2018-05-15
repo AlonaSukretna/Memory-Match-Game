@@ -20,7 +20,7 @@ const stars = document.querySelectorAll(".fa-star");
 let matchedCard = document.getElementsByClassName("match");
 let starsList = document.querySelectorAll(".stars li");
 let closeicon = document.querySelector(".close");
-let modal = document.getElementById("popup1");
+let modal = document.getElementById("popupwindow");
 // array for opened cards
 var openedCards = [];
 
@@ -96,8 +96,8 @@ var displayCard = function (){
 // add the card to a *list* of "open" cards
 function cardOpen() {
     openedCards.push(this);
-    var len = openedCards.length;
-    if(len === 2){//2 cards selected
+    var length = openedCards.length;
+    if(length === 2){//2 cards selected
         moveCounter();//function below
         let type1 = openedCards[0].getElementsByTagName("i")[0].classList.toString();
         let type2 = openedCards[1].getElementsByTagName("i")[0].classList.toString();
