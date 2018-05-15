@@ -113,7 +113,7 @@ h1 {
     display: none;
 }
 
-#popup1 {
+#popupwindow {
     position: fixed;
     top: 50%;
     background-color: white;
