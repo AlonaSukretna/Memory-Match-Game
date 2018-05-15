@@ -83,9 +83,10 @@ function shuffle(array) {
  */
 
   // set up the event listener for a card which listens for a click on the card and than runs the displayCard function
-for (var i = 0; i < cards.length; i++){
+for (let i = 0; i < cards.length; i++){
    cards[i].addEventListener("click", displayCard);
 }
+
 
 //function displayCard using .toggle() for display or hide the matched elements
 var displayCard = function (){
@@ -95,6 +96,12 @@ var displayCard = function (){
 }
 // add the card to a *list* of "open" cards
 function cardOpen() {
+  //added condition to avoid situation when you click the same card more than once, it counts that as a move
+    if (openedCards.length > 0 && openedCards[0].id === this.id)
+    {
+      openedCards = [];
+      return;
+    }
     openedCards.push(this);
     var length = openedCards.length;
     if(length === 2){//2 cards selected
